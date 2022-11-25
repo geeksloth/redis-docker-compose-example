@@ -17,6 +17,9 @@ docker compose up -d
 ### More Practical Way (recommended)
 
 1. Clone and get into the repo by the 1st previous step.
+```bash
+git clone https://github.com/geeksloth/redis-docker-compose-template.git && cd redis-docker-compose-template
+```
 
 2. Change ```--requirepass 03fbc...669``` in *docker-compose.yml* file to your password. Which you can generate with **SHA-256** algorithm, or simply using online tools eg. [SHA256 Online](https://emn178.github.io/online-tools/sha256.html)
 
