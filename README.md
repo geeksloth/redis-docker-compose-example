@@ -1,6 +1,7 @@
 # Redis-Docker-Compose-template
 A template that helps you quick start a Redis server easily.
 
+<br />
 
 ### Fast run
 1. Clone and get into this repo
@@ -13,6 +14,7 @@ docker compose up -d
 ```
 3. Connect to Redis with password: ```mysimplepassword```
 
+<br />
 
 ### More Practical Way (recommended)
 
