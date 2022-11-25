@@ -1,0 +1,10 @@
+version: "3"
+services:
+  redis:
+    image: "redis:latest"
+    restart: always
+    command: redis-server --save 20 1 --requirepass 03fbc07d84f74b7294f6c23b07401475cdfb3c8731ee10fcc6c3e307c2678669
+    ports: 
+      - "6379:6379"
+    volumes:
+      - "./data:/data"
